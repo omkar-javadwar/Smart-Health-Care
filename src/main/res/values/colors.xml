@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="dark">#292b3d</color>
+
+    <color name="darkblue">#B70055FF</color>
+    <color name="green">#399c11</color>
+    <color name="inverted">#9339B8</color>
+    <color name="red">#be281e</color>
+    <color name="maroon">#731412</color>
+
+</resources>

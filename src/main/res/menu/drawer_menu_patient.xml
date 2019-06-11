@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_doctors"
+            android:icon="@drawable/ic_doctors"
+            android:title="Doctors" />
+
+        <item
+            android:id="@+id/nav_appointments"
+            android:icon="@drawable/ic_date"
+            android:title="Appointments" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_services"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/nav_clinics"
+            android:icon="@drawable/ic_clinics"
+            android:title="Clinics" />
+
+    </group>
+
+    <item android:title="Know More">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/nav_shared"
+                android:icon="@drawable/ic_folder_shared"
+                android:title="Shared" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

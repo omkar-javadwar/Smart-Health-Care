@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SHP</string>
+    <string name="email">Email</string>
+    <string name="patient">Patient</string>
+    <string name="title_activity_navigationuser">NavigationuserActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="login">Login</string>
+    <string name="doctor">Doctor</string>
+    <string name="login_as">Login as:</string>
+
+    <string name="share_activity">Share Activity Demo</string>
+    <string name="shared_activity">Shared Activity Demo</string>
+    <string name="imageview">Share ImageView</string>
+    <string name="share_image">Share Image</string>
+    <string name="share_text">Share Text</string>
+    <string name="select_image">Select Image</string>
+    <string name="enter_text">Enter something to share</string>
+    <string name="shared_text">Shared Text</string>
+    <string name="shared_image">Shared Image</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="smart_health_care">Smart Health Care</string>
+</resources>

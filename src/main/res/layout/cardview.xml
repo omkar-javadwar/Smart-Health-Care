@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:background="@color/endblue">
+	
+	<android.support.v7.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+		android:padding="8dp"
+		android:background="@color/endblue"
+		>
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="100dp"
+			android:padding="10dp"
+			>
+			
+			<Space
+				android:layout_width="match_parent"
+				android:layout_height="20dp" />
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Name :"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewName"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="Name"
+						android:textAlignment="center" />
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Mobileno :"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewMobileno"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="Mobile no"
+						android:textAlignment="center" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Age :"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewAge"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="Age"
+						android:textAlignment="center" />
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Bloodgroup:"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewBloodgroup"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="blood group"
+						android:textAlignment="center" />
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Address :"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewAddress"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="Address"
+						android:textAlignment="center" />
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="150dp"
+						android:layout_height="match_parent"
+						android:text="Time :"
+						android:textStyle="bold" />
+					
+					<TextView
+						android:id="@+id/textViewTime"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="Time"
+						android:textAlignment="center" />
+				</LinearLayout>
+			
+			
+			
+			</LinearLayout>
+		
+		
+		</RelativeLayout>
+	
+	</android.support.v7.widget.CardView>
+
+</LinearLayout>
